@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados grandes
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs
+outputs/figures/*
+!outputs/figures/.gitkeep
